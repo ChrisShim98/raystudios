@@ -1,8 +1,8 @@
 import React from 'react'
 import TermsOfConditions from "../components/termsOfConditions";
-import './toc.css'
+import './tos.css'
 
-const TOC = () => {
+const TOS = () => {
   return (
     <div className="w-screen py-[12vh] relative">
       <TermsOfConditions />
@@ -16,4 +16,4 @@ const TOC = () => {
   )
 }
 
-export default TOC
+export default TOS

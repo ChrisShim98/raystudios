@@ -27,7 +27,7 @@ const ContactHeader = () => {
                     <textarea className='border-2 w-full p-2' name="" id="" cols="30" rows="10"></textarea>
                 </div>
                 
-                <button className='text-white hover:text-[#ffd60a] bg-black hover:bg-[#001d3d] text-sm px-4 py-2 font-bold'>Send</button>
+                <button className='text-white hover:text-[#DF9AF9] bg-black hover:bg-[#001d3d] text-sm px-4 py-2 font-bold'>Send</button>
             </div>
         </div>
         

@@ -3,7 +3,7 @@ import Home from './pages/home.jsx'
 import Navbar from './components/navbar'
 import Footer from './components/footer'
 import { Route, Routes } from 'react-router-dom';
-import TOC from './pages/toc';
+import TOS from './pages/tos';
 import ContactUs from './pages/contactUs';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/toc' element={<TOC />} />
+        <Route path='/tos' element={<TOS />} />
         <Route path='/contactus' element={<ContactUs />} />
         <Route path='*' element={<Home />} />
       </Routes>     
