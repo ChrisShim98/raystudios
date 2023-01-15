@@ -1,0 +1,21 @@
+.menu-mobile {
+    clip-path: polygon(100% 0, 100% 0%, 100% 0, 100% 0);
+}
+.menu-mobile-closed {
+    clip-path: polygon(100% 0, 100% 0%, 100% 0, 100% 0);
+    animation: closing 0.75s ease-in-out;
+}
+.menu-mobile-opened {
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+    animation: opening 0.75s ease-in-out;
+}
+@keyframes opening {
+    0% {clip-path: polygon(100% 0, 100% 0%, 100% 0, 100% 0);}
+    50% {clip-path: polygon(98% 0, 62% 63%, 0 100%, 33% 43%);}
+    100% {clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);}
+}
+@keyframes closing {
+    0% {clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);}
+    50% {clip-path: polygon(98% 0, 62% 63%, 0 100%, 33% 43%);}
+    100% {clip-path: polygon(100% 0, 100% 0%, 100% 0, 100% 0);}
+}
