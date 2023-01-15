@@ -19,20 +19,20 @@ const Navbar = () => {
     <div className="w-screen fixed top-0 right-0 z-10">
       <div className={menuStyle}>
         <ul className="flex flex-col w-screen h-screen items-center justify-center gap-4">
-          <li className="text-white font-bold hover:text-[#DF9AF9] text-3xl">
-            <NavLink style={({isActive}) => {return isActive ? {color: "#DF9AF9"} : {}}} to='/' onClick={() => {setMenuOpened(0);}}>Home</NavLink>
+          <li className="text-white font-bold hover:text-[#9a43c4] text-3xl">
+            <NavLink style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/' onClick={() => {setMenuOpened(0);}}>Home</NavLink>
           </li>
-          <li className="text-white font-bold hover:text-[#DF9AF9] text-3xl">Products</li>
-          <li className="text-white font-bold hover:text-[#DF9AF9] text-3xl">
-            <NavLink style={({isActive}) => {return isActive ? {color: "#DF9AF9"} : {}}} to='/contactus' onClick={() => {setMenuOpened(0);}}>Contact Us</NavLink>
+          <li className="text-white font-bold hover:text-[#9a43c4] text-3xl">Products</li>
+          <li className="text-white font-bold hover:text-[#9a43c4] text-3xl">
+            <NavLink style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/contactus' onClick={() => {setMenuOpened(0);}}>Contact Us</NavLink>
           </li>
-          <li className="text-white font-bold hover:text-[#DF9AF9] text-3xl">
-            <NavLink style={({isActive}) => {return isActive ? {color: "#DF9AF9"} : {}}} to='/tos' onClick={() => {setMenuOpened(0);}}>Terms of Service</NavLink>
+          <li className="text-white font-bold hover:text-[#9a43c4] text-3xl">
+            <NavLink style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/tos' onClick={() => {setMenuOpened(0);}}>Terms of Service</NavLink>
           </li>
         </ul>
       </div>
       <div className="bg-black h-[8%] relative flex text-sm md:text-base">
-        <div className="w-[20vw] pl-[3vw] justify-start items-center">
+        <div className="w-[20vw] pl-[1vw] md:pl-[3vw] pt-1 justify-start items-center">
           <Logo2
             className="h-12 md:h-16"
             fill={"white"}
@@ -41,17 +41,17 @@ const Navbar = () => {
         </div>
 
         <ul className="flex w-screen h-full p-3 md:p-5 pr-[3vw] justify-end gap-4 items-center">
-          <li className="text-white font-bold cursor-pointer hover:text-[#DF9AF9] hidden md:block">
-            <NavLink style={({isActive}) => {return isActive ? {color: "#DF9AF9"} : {}}} to='/'>Home</NavLink>
+          <li className="text-white font-bold cursor-pointer hover:text-[#9a43c4] hidden md:block">
+            <NavLink style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/'>Home</NavLink>
           </li>
-          <li className="text-white font-bold cursor-pointer hover:text-[#DF9AF9] hidden md:block">
+          <li className="text-white font-bold cursor-pointer hover:text-[#9a43c4] hidden md:block">
             Products
           </li>
-          <li className="text-white font-bold cursor-pointer hover:text-[#DF9AF9] hidden md:block">
-          <NavLink style={({isActive}) => {return isActive ? {color: "#DF9AF9"} : {}}} to='/contactus' onClick={() => {setMenuOpened(0);}}>Contact Us</NavLink>
+          <li className="text-white font-bold cursor-pointer hover:text-[#9a43c4] hidden md:block">
+          <NavLink style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/contactus' onClick={() => {setMenuOpened(0);}}>Contact Us</NavLink>
           </li>
-          <li className="text-white font-bold cursor-pointer hover:text-[#DF9AF9] hidden md:block">
-            <NavLink style={({isActive}) => {return isActive ? {color: "#DF9AF9"} : {}}} to='/tos'>Terms of Service</NavLink>
+          <li className="text-white font-bold cursor-pointer hover:text-[#9a43c4] hidden md:block">
+            <NavLink style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/tos'>Terms of Service</NavLink>
           </li>
           <div className="text-white md:hidden">
             {menuOpened === 1 ? 

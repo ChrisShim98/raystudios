@@ -12,7 +12,7 @@ const Products = () => {
         <AlbumCovers />   
       </div>
       <div className="w-full flex justify-center pt-4">
-        <button className='text-white hover:text-black bg-black hover:bg-[#DF9AF9] text-sm px-4 py-2 font-bold'>See more</button>
+        <button className='text-white hover:text-black bg-black hover:bg-[#9a43c4] text-sm px-4 py-2 font-bold'>See more</button>
       </div>
     </div>
   );

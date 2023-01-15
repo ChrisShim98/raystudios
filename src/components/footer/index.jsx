@@ -9,28 +9,28 @@ const Footer = () => {
         <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
           <nav className="flex flex-wrap justify-center -mx-5 -my-2 font-medium">
             <div className="px-5 py-2">
-              <NavLink className="text-base leading-6 text-white hover:text-[#DF9AF9]" style={({isActive}) => {return isActive ? {color: "#DF9AF9"} : {}}} to='/'>Home</NavLink>
+              <NavLink className="text-base leading-6 text-white hover:text-[#9a43c4]" style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/'>Home</NavLink>
             </div>
             <div className="px-5 py-2">
               <a
                 href="/"
-                className="text-base leading-6 text-white hover:text-[#DF9AF9]"
+                className="text-base leading-6 text-white hover:text-[#9a43c4]"
               >
                 Products
               </a>
             </div>
             <div className="px-5 py-2">
-              <NavLink className="text-base leading-6 text-white hover:text-[#DF9AF9]" style={({isActive}) => {return isActive ? {color: "#DF9AF9"} : {}}} to='/contactus'>Contact Us</NavLink>
+              <NavLink className="text-base leading-6 text-white hover:text-[#9a43c4]" style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/contactus'>Contact Us</NavLink>
             </div>
             <div className="px-5 py-2">
-              <NavLink className="text-base leading-6 text-white hover:text-[#DF9AF9]" style={({isActive}) => {return isActive ? {color: "#DF9AF9"} : {}}} to='/tos'>Terms of Service</NavLink>
+              <NavLink className="text-base leading-6 text-white hover:text-[#9a43c4]" style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/tos'>Terms of Service</NavLink>
             </div>
           </nav>
           <div className="flex justify-center mt-8 space-x-6">
-            <a href="/" target="_blank" rel="noreferrer" className="text-white hover:text-[#DF9AF9]">
+            <a href="/" target="_blank" rel="noreferrer" className="text-white hover:text-[#9a43c4]">
               <AiFillLinkedin size={'1.5rem'} />
             </a>
-            <a href="https://github.com/ChrisShim98" target="_blank" rel="noreferrer" className="text-white hover:text-[#DF9AF9]">
+            <a href="https://github.com/ChrisShim98" target="_blank" rel="noreferrer" className="text-white hover:text-[#9a43c4]">
               <span className="sr-only">GitHub</span>
               <svg
                 className="w-6 h-6"
