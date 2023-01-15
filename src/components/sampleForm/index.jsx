@@ -14,7 +14,7 @@ const ContactForm = () => {
                 <textarea className='border-2 w-full p-2' name="" id="" cols="30" rows="10"></textarea>
             </div>
             
-            <button className='text-white hover:text-black bg-black hover:bg-[#9a43c4] text-sm px-4 py-2 font-bold'>Send</button>
+            <button className='text-white bg-black hover:bg-[#9a43c4] text-sm px-4 py-2 font-bold'>Send</button>
         </div>
     </div>
   )

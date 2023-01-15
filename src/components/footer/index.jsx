@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
           </nav>
           <div className="flex justify-center mt-8 space-x-6">
-            <a href="/" target="_blank" rel="noreferrer" className="text-white hover:text-[#9a43c4]">
+            <a href="https://www.linkedin.com/in/christopher-shim-bsc/" target="_blank" rel="noreferrer" className="text-white hover:text-[#9a43c4]">
               <AiFillLinkedin size={'1.5rem'} />
             </a>
             <a href="https://github.com/ChrisShim98" target="_blank" rel="noreferrer" className="text-white hover:text-[#9a43c4]">
