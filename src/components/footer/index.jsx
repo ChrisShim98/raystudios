@@ -12,12 +12,9 @@ const Footer = () => {
               <NavLink className="text-base leading-6 text-white hover:text-[#9a43c4]" style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/'>Home</NavLink>
             </div>
             <div className="px-5 py-2">
-              <a
-                href="/"
-                className="text-base leading-6 text-white hover:text-[#9a43c4]"
-              >
+            <NavLink className="text-base leading-6 text-white hover:text-[#9a43c4]" style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/products'>
                 Products
-              </a>
+              </NavLink>
             </div>
             <div className="px-5 py-2">
               <NavLink className="text-base leading-6 text-white hover:text-[#9a43c4]" style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/contactus'>Contact Us</NavLink>
