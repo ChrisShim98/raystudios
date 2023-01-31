@@ -22,7 +22,9 @@ const Navbar = () => {
           <li className="text-white font-bold hover:text-[#9a43c4] text-3xl">
             <NavLink style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/' onClick={() => {setMenuOpened(0);}}>Home</NavLink>
           </li>
-          <li className="text-white font-bold hover:text-[#9a43c4] text-3xl">Products</li>
+          <li className="text-white font-bold hover:text-[#9a43c4] text-3xl">
+            <NavLink style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/products' onClick={() => {setMenuOpened(0);}}>Products</NavLink>
+          </li>
           <li className="text-white font-bold hover:text-[#9a43c4] text-3xl">
             <NavLink style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/contactus' onClick={() => {setMenuOpened(0);}}>Contact Us</NavLink>
           </li>
@@ -45,10 +47,10 @@ const Navbar = () => {
             <NavLink style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/'>Home</NavLink>
           </li>
           <li className="text-white font-bold cursor-pointer hover:text-[#9a43c4] hidden md:block">
-            Products
+            <NavLink style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/products'>Products</NavLink>
           </li>
           <li className="text-white font-bold cursor-pointer hover:text-[#9a43c4] hidden md:block">
-          <NavLink style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/contactus' onClick={() => {setMenuOpened(0);}}>Contact Us</NavLink>
+            <NavLink style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/contactus'>Contact Us</NavLink>
           </li>
           <li className="text-white font-bold cursor-pointer hover:text-[#9a43c4] hidden md:block">
             <NavLink style={({isActive}) => {return isActive ? {color: "#9a43c4"} : {}}} to='/tos'>Terms of Service</NavLink>

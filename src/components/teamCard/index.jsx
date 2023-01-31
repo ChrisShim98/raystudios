@@ -31,9 +31,9 @@ const TeamCard = ({role, staffNumber}) => {
     <div className="card h-[15rem] w-[20rem]">
         <img className="profile-pic" src={staff} alt="" />
         <h1 className="text-white absolute bottom-[0.65rem] left-0 text-xl font-medium left-text opacity-30">{name}</h1>
-        <h1 className="text-white absolute bottom-12 left-5 text-sm font-medium left-text opacity-30">{role}</h1>
-        <h1 className="text-white absolute bottom-1 left-6 text-lg font-medium">{name}</h1>
-        <h1 className="text-white absolute bottom-7 left-6 text-sm font-medium">{role}</h1>
+        <h1 className="text-white absolute bottom-[3.25rem] left-6 text-sm font-medium left-text opacity-30">{role}</h1>
+        <h1 className="text-white absolute bottom-1 left-7 text-lg font-medium">{name}</h1>
+        <h1 className="text-white absolute bottom-7 left-7 text-sm font-medium">{role}</h1>
     </div>
   );
 };
