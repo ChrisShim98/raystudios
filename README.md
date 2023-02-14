@@ -7,7 +7,7 @@
 </p>
  
  ## Description
-The project involves building a web platform for purchasing digital music, with a user-friendly and a fully responsive (mobile, tablet and desktop) design. It includes a landing page, 
+This project involves building a web platform for purchasing digital music, with a user-friendly and a fully responsive (mobile, tablet and desktop) design. It includes a landing page, 
 contact page, product pages, and terms of service page to provide a comprehensive experience.
 
 <b>Company Description:</b>  
