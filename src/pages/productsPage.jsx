@@ -35,12 +35,12 @@ const ProductsPage = () => {
   return (
     <div className='w-screen min-h-screen pb-[45vh]' style={{backgroundImage: `url(${Notes})`}}>
         <motion.div style={{y}} className='w-full h-[40vh] absolute products-header'>
-            <div className='w-full h-full px-4 from-[#9a43c4] bg-gradient-to-tr to-[#360050]  flex flex-col justify-center items-center'>
-                <h1 className='text-4xl font-medium text-white'>Products</h1>
+            <div className='w-full h-full px-4 from-[#9a43c4] bg-gradient-to-tr to-[#360050] flex flex-col justify-center items-center'>
+                <h1 className='text-4xl font-bold text-white'>Products</h1>
             </div>
         </motion.div>
-        <div className='bg-gray-100 rounded-md relative w-[80vw] min-h-[20vh] top-[30vh] left-[10vw]'>
-            <div className='px-[10vw] shadow-2xl gap-6 grid grid-cols-1 md:grid-cols-3 place-items-center py-5'>
+        <div className='bg-gray-100 rounded-md relative w-[80vw] min-h-[20vh] top-[30vh] left-[10vw] py-8 shadow-2xl'>
+            <div className='px-[10vw] gap-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  py-5'>
                 {albumCovers.map((cover, index) => {
                     return <div className='flex flex-col items-center text-center' key={`${cover} ${index}1`}>
                             <img src={cover} className="rounded-lg w-[20vh] hover:scale-[1.05] transition-all" alt="" />

@@ -16,7 +16,7 @@ const Navbar = () => {
   }, [menuOpened])
 
   return (
-    <div className="w-screen fixed top-0 right-0 z-10">
+    <div className="w-screen fixed top-0 right-0 z-20">
       <div className={menuStyle}>
         <ul className="flex flex-col w-screen h-screen items-center justify-center gap-4">
           <li className="text-white font-bold hover:text-[#9a43c4] text-3xl">
